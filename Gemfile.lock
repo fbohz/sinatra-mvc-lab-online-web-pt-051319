@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  pig_latin
+  pig_latin (~> 0.0.2)
   pry
   rack-test
   rake
