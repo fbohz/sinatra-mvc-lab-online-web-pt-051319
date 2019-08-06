@@ -4,7 +4,8 @@ class PigLatinizer
   
   
   def piglatinize(input_str)
-    input_str = PigLatin::Translator.new(:dash => false)
+    pig_latin = PigLatin::Translator.new(:dash => false)
+    pig_latin.translate(input_str)
     
   end 
   
