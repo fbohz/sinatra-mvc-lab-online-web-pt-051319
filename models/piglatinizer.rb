@@ -1,11 +1,19 @@
 require 'pry'
+require 'piggy_latin'
 class PigLatinizer 
+  
+  #tried using a Ruby Gem first.  
+  # def piglatinize(input_str)
+  #   #binding.pry
+  #   PigLatin::Translator.new(:dash => false).translate(input_str)
+  # end 
+  
   
   def piglatinize(input_str)
     input_str.split(" ").length == 1 ? piglatinize_word(input_str) : piglatinize_sentence(input_str)
   end
   
-   def consonant?(char)
+  def consonant?(char)
     !char.match(/[aAeEiIoOuU]/)
   end
 
