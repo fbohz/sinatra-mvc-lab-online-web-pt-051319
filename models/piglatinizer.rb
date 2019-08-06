@@ -4,7 +4,7 @@ class PigLatinizer
   
   
   def piglatinize(input_str)
-    binding.pry
+    #binding.pry
     PigLatin::Translator.new(:dash => false).translate(input_str)
   end 
   
