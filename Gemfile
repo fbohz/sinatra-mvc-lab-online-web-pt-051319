@@ -16,4 +16,4 @@ group :test do
       gem 'rack-test'
     end
 
-gem "pig_latin", "~> 0.0.2"
+
