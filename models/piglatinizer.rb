@@ -6,7 +6,6 @@ class PigLatinizer
   def piglatinize(input_str)
     pig_latin = PigLatin::Translator.new(:dash => false)
     assert_equal(pig_latin.translate(input_str))
-    binding.pry
     
   end 
   
