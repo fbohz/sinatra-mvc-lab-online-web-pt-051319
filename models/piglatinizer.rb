@@ -5,7 +5,7 @@ class PigLatinizer
   
   def piglatinize(input_str)
     #binding.pry
-    PigLatin::Translator.new(:dash => false).translate(input_str)
+    PigLatin::Translator.new(:dash => false).translate(input_str).downcase
   end 
   
   
