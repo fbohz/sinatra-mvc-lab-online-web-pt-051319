@@ -1,4 +1,5 @@
 require 'pry'
+require 'pig_latin'
 class PigLatinizer 
   
   
